@@ -122,7 +122,7 @@
  
  (19:50 10min break)
  
- - 請兩兩一組，並且由其中一位把另一位加到目前所在的 `YourUserName/HelloGithub2` repo，也就是你一開始從我這邊fork回去的
+ - 請兩兩一組，並且由其中一位把另一位加到目前所在的 `YourUserName/HelloGithub2` repo，也就是你一開始從我這邊fork回去的，也就是彼此互相是collaborator。
  
  --- 
  
@@ -143,14 +143,17 @@
 
    1. 柏銘再次於在自己的分支內更新 `Lecturing_0313.md`，並且執行`commit`+`push`+`pull request`
    
-   2. 此時，植中同意merge這個`pull request`，目前都跟剛才示範的成功例子是相同的。
+   2. 此時，植中同意merge這個`pull request`，目前都跟剛才示範的成功例子是相同的。而`Studying_0313_Alex`與`master`的檔案內容會是一致的，唯獨植中的分支是「落後的」。
    
+   
    3. 植中也在自己的分支`Studying_0313_Lambert`進行修改，而他不小心(或彼此未充分溝通）也修改了同一行，並且執行`commit`+`push`+`pull request`
    
    4. 此時，會遇到`Can't automatically merge`
    
    5.（組長）植中需要決定要留下哪些部分
    
+   6. Conflict解決之後，`master`和`Studying_0313_Lambert`的檔案內容會是一致的，現在反而是`Studying_0313_Alex`的分支，需要透過pull request來「跟上」進度。`base: Studying_0313_Alex`；`compare: master`。
+   
 #### 5-1. Let's try on your own 
  
 ---
