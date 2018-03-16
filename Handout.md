@@ -3,21 +3,6 @@
 
 ### this is the repo for Github minicourse in E.Major 
 
-#### GTD
-
-the Chinese word
-
-what's gist?
-
-what are the good plug-in on Github （not included in class)?
-
-Is there any time to get more understanding on bookdown(the `pandoc` package)
-
-
-
-
----
-
 #### Course Outline : 
 
  1. what is Git (a version control system) (介紹觀念，很重要）
